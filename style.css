@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, html {
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the title bar */
+.titlebar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Center the title */
+.titlebar h1 {
+    text-align: center;
+}
+
+/* Style the search input and button */
+.searchCol {
+    padding: 1rem;
+}
+
+/* Style the city search form */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Style the search history list */
+.list-group {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Style the weather card */
+.card {
+    margin-top: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the current weather information */
+#current-weather {
+    text-align: center;
+}
+
+/* Style the forecast container */
+#forecastContainer {
+    margin-top: 20px;
+}
+
+/* Style the five-day forecast */
+#five-day {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Style individual forecast items */
+.forecast-item {
+    flex-basis: calc(33.33% - 10px); /* Three items per row with spacing */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Add more styles as needed */
